@@ -19,6 +19,10 @@ namespace TesterProgram
 
             Console.WriteLine(v1);
 
+            Login l1 = new Login("bunnyH0ps", "ChimkenNuggetz");
+
+            Console.WriteLine(l1);
+
         }
     }
 }

@@ -46,7 +46,7 @@ namespace ClassesLibrary
 
         public override string ToString()
         {
-            return string.Format("Make: {0}\nModel: {1}\nYear: {2}\nWeight: {3}", Make, Model, Year, (Weight+"lbs"));
+            return string.Format("Make: {0}\nModel: {1}\nYear: {2}\nWeight: {3}\n", Make, Model, Year, (Weight+"lbs"));
         }
     }
 }
