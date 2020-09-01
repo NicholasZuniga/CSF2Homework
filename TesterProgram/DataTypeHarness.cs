@@ -23,6 +23,10 @@ namespace TesterProgram
 
             Console.WriteLine(l1);
 
+            ContactInfo c1 = new ContactInfo("3100 Dependent Street", "Kansas City", "Kansas", "66109", "837-384-7734", "TotallyARealEmail@email.com");
+
+            Console.WriteLine(c1);
+
         }
     }
 }

@@ -32,7 +32,7 @@ namespace ClassesLibrary
 
         public override string ToString()
         {
-            return string.Format("Username: {0}\nPassword: {1}", UserName, Password);
+            return string.Format("Username: {0}\nPassword: {1}\n", UserName, Password);
         }
     }
 }
