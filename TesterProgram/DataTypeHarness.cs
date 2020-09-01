@@ -15,6 +15,10 @@ namespace TesterProgram
 
             Console.WriteLine(s1);
 
+            Vehicle v1 = new Vehicle("Toyata", "Hatchback", 2010, 2900);
+
+            Console.WriteLine(v1);
+
         }
     }
 }
