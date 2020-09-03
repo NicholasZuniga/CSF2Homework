@@ -36,6 +36,12 @@ namespace TesterProgram
 
             Book bk1 = new Book("Necronomicon", "Lucifer", 666);
             Console.WriteLine(bk1);
+
+            List<Book> books = new List<Book>(){bk1};
+
+            Library lib1 = new Library(books, "Atchison Library", "3219 Apple Avenue", "Wood Cabin City", "Colorado", "68484");
+
+            Console.WriteLine(lib1);
         }
     }
 }
