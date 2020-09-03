@@ -6,22 +6,24 @@ using System.Threading.Tasks;
 
 namespace ClassesLibrary
 {
-    public class Customer: ContactInfo
+    public class Customer
     {
         public string CustomerID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public ContactInfo ContactInfo { get; set; }
 
-        public Customer(string customerID, string firstName, string lastName,string streetAddress, string city, string state,string zip, string phone, string email) :base(streetAddress,city,state,zip,phone,email)
+        public Customer(string customerID, string firstName, string lastName,ContactInfo contactInfo)
         {
             CustomerID = customerID;
             FirstName = firstName;
             LastName = lastName;
+            ContactInfo = contactInfo;
         }
         public override string ToString()
         {
             return string.Format("\nFirstname: {1}\t\tLastname: {2}\nCustomer ID: {3}\n{0}",
-            base.ToString(),
+            ContactInfo.ToString(),
             FirstName,
             LastName,
             CustomerID);

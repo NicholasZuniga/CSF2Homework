@@ -27,10 +27,12 @@ namespace TesterProgram
 
             Console.WriteLine(c1);
 
-            Customer cus1 = new Customer("CD8887", "John", "Briggs","2304 Dolphin Way", "Lipsy City", "Kansas", "39878", "873-475-3333", "Dontemailme@email.com");
+            Customer cus1 = new Customer("CD8887", "John", "Briggs", c1);
 
             Console.WriteLine(cus1);
 
+            CreditCardAccount credit1 = new CreditCardAccount(8484838, cus1, 180.82m, false, 9.2m);
+            Console.WriteLine(credit1);
         }
     }
 }
