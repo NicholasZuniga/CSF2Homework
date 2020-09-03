@@ -27,6 +27,10 @@ namespace TesterProgram
 
             Console.WriteLine(c1);
 
+            Customer cus1 = new Customer("CD8887", "John", "Briggs","2304 Dolphin Way", "Lipsy City", "Kansas", "39878", "873-475-3333", "Dontemailme@email.com");
+
+            Console.WriteLine(cus1);
+
         }
     }
 }
