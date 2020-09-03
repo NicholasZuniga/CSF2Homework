@@ -33,6 +33,9 @@ namespace TesterProgram
 
             CreditCardAccount credit1 = new CreditCardAccount(8484838, cus1, 180.82m, false, 9.2m);
             Console.WriteLine(credit1);
+
+            Book bk1 = new Book("Necronomicon", "Lucifer", 666);
+            Console.WriteLine(bk1);
         }
     }
 }
